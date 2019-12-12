@@ -13,4 +13,4 @@ EXPOSE 8901
 HEALTHCHECK --interval=30s --timeout=3s CMD ["healthchecker-linux-amd64", "-port=8901"] || exit 1
 
 # 容器启动执行命令
-ENTRYPOINT ["./echoservice-bp-linux-amd64"]
+ENTRYPOINT ["/echoservice-linux-amd64"]
