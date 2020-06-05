@@ -1,7 +1,7 @@
-docker build -t gorpher/echoservice:v1 docker
+docker build -t gorpher/echoservice:v2 docker
 echo "docker build success!!!"
 
-docker push gorpher/echoservice:v1
+docker push gorpher/echoservice:v2
 echo "docker push success!!!"
 
 
